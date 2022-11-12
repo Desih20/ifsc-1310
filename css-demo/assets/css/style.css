@@ -1,3 +1,5 @@
+/* ----------------Box Sizing--------------- */
+
 html{
     box-sizing: border-box;
 }
@@ -6,6 +8,22 @@ html{
     *::after {
      box-sizing: inherit;
 }
+
+/* ---------------Global Styles--------------- */
+
 body{
     background-color: rgb(212, 175, 55);
+    font-family: 'Cormorant Garamond', serif;
+    margin:0;
+}
+
+
+header.primary{
+    background-color: brown;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
 }
