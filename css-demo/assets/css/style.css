@@ -77,8 +77,8 @@ header.primary li {
 header.primary nav a{
     color: #ffffff;
     text-decoration: none;
-    background: aqua;
-    background: rgba(0, 255, 255, .4);
+    background: #8b4513;
+    background: rgb(139, 69, 19, .4);
     padding: 4px 10px;
     border-radius: 10px;
     transition: .5s;
@@ -87,7 +87,7 @@ header.primary nav a{
 }
 
 header.primary nav a:hover, header.primary nav a:active {
-    background: rgba(0, 255, 255, .8);
+    background: rgba(139, 69, 19, .8);
 }
 
 #intro {
