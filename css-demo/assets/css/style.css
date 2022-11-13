@@ -90,15 +90,23 @@ header.primary nav a:hover, header.primary nav a:active {
     background: rgba(0, 255, 255, .8);
 }
 
+#intro {
+    border: 1px dotted #8b4513;
+    padding: .9rem;
+}
+
 #intro h2 {
     color: #8b4513;
     border: 2px solid #ffffff;
+
 }
 
 #content{
     display: flex;
     justify-content: space-around;
     flex-direction: row;
+    border: 1px dotted #8b4513;
+    padding: 2.9rem;
 }
 
 #content article.post {
@@ -122,6 +130,7 @@ figure img{
     padding: 2px;
     border-radius: 10px;
     margin: 3px auto;
+    background: #8b4513;
 }
 
 article.post a{
@@ -131,4 +140,42 @@ article.post a{
 article.post a:hover{
     text-decoration: none;
     transition: .5s;
+}
+/* Attribute Selector Example */
+aside[role="complementary"]{
+    background-color: #8b4513;
+    color: #ffffff;
+    padding: 40px;
+}
+aside .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+aside article.widget{
+    width: 43%;
+}
+
+article.widget a:last-of-type{
+    color: #ffffff;
+    display: block;
+    text-align: right;
+    margin-top: .8rem;
+}
+
+article.widget footer{
+    display: none;
+}
+
+#colophon{
+    background-color: #d4af37;
+}
+
+#colophon h6{
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    color: #ffffff;
+    font-size: .9rem;
 }
