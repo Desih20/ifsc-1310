@@ -12,7 +12,7 @@ $(document).ready(function() {
               dots: true,
               centerMode: true,
               centerPadding: '40px',
-              slidesToShow: 3
+              slidesToShow: 4
             }
           },
           {
@@ -27,3 +27,5 @@ $(document).ready(function() {
           }
         ]
 });
+
+}
