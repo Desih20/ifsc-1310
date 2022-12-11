@@ -83,6 +83,7 @@ header.primary ul{
 header.primary li{
     background-color: cadetblue;
     list-style-type: none;
+    text-decoration: none;
 }
 
 #intro{
@@ -120,6 +121,15 @@ figure img{
     border-radius: 10px;
     margin: 3px auto;
     background: #d3d3d3;
+}
+
+article.post a{
+    color: #d3d3d3;
+}
+
+article.post a:hover{
+    text-decoration: none;
+    transition: .5s;
 }
 
 #colophon{
