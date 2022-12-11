@@ -48,7 +48,7 @@ header.primary{
     padding-left: 40px;
 }
 
-.replace-scott a{
+.replace-scott a {
     width: 300px;
     height: 172px;
     color: #000;
@@ -101,8 +101,8 @@ header.primary li{
 
 #content{
     display: flex;
-    justify-content: space-evenly;
     flex-direction: row-reverse;
+    justify-content: space-around;
     align-items: center;
     border: 2px solid #d3d3d3;
     padding: 3.0rem;
@@ -125,7 +125,7 @@ figure img{
 }
 
 article.post a{
-    color: #d3d3d3;
+    text-decoration: none;
 }
 
 article.post a:hover{
