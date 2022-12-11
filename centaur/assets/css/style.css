@@ -92,7 +92,7 @@ header.primary li{
 
 #contentinfo{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-direction: row;
     border: 2px solid #d3d3d3;
     padding: 3.0rem;
@@ -100,7 +100,7 @@ header.primary li{
 
 #content{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-direction: row;
     border: 2px solid #d3d3d3;
     padding: 3.0rem;
