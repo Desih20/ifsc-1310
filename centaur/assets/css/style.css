@@ -79,3 +79,14 @@ header.primary ul{
     flex-direction: row;
     justify-content: space-evenly;
 }
+
+#colophon{
+    background-color: #d3d3d3;
+}
+
+#colophon h6{
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    font-size: .9rem;
+}
