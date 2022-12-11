@@ -80,6 +80,11 @@ header.primary ul{
     justify-content: space-evenly;
 }
 
+header.primary li{
+    background-color: cadetblue;
+    list-style-type: none;
+}
+
 #intro{
     border: 2px solid #d3d3d3;
     padding: 3.0rem;
