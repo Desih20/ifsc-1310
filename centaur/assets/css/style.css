@@ -80,6 +80,27 @@ header.primary ul{
     justify-content: space-evenly;
 }
 
+#intro{
+    border: 2px solid #d3d3d3;
+    padding: 3.0rem;
+}
+
+#contentinfo{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    border: 2px solid #d3d3d3;
+    padding: 3.0rem;
+}
+
+#content{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    border: 2px solid #d3d3d3;
+    padding: 3.0rem;
+}
+
 #colophon{
     background-color: #d3d3d3;
 }
