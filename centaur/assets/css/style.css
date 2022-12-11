@@ -51,7 +51,7 @@ header.primary{
 .replace-scott a{
     width: 300px;
     height: 172px;
-    color: #fff;
+    color: #000;
     background: url(C:\Users\desti\Documents\Computer Applications in Art\segway_color_logo.gif);
     text-indent: 100%;
     white-space: nowrap;
@@ -104,6 +104,22 @@ header.primary li{
     flex-direction: row;
     border: 2px solid #d3d3d3;
     padding: 3.0rem;
+}
+
+#content article.post {
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(f, f, f, .8);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: .8rem;
+}
+
+figure img{
+    border: 1px;
+    padding: 2px;
+    border-radius: 10px;
+    margin: 3px auto;
+    background: #d3d3d3;
 }
 
 #colophon{
